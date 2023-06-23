@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+    <!-- 引入React和ReactDOM库文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 引入Login组件的JS文件 -->
+    <script type="text/babel" src="../componets/login.js">
+      // 渲染Login组件到页面上
+      import Login from "../src/componets/login";
+      ReactDOM.render(React.createElement(Login), document.getElementById('root'));
+    </script>
+  </body>
+</html>
